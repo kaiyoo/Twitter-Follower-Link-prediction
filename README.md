@@ -20,14 +20,14 @@ For features, we implemented methods for getting features below.
 6) Other features: followers/followees of source/sink each and their common followers/followees
 
 # Implementation: 
-We referred to some implemented codes in the github but mostly it was easy to implement according to the formula just by using python dictionary. Mainly two types of dictionary which: 1) stores nodes that are followed by a node 2) stores nodes that follows a node
+We referred to some implemented codes in the github but mostly it was easy to implement according to the formula just by using python dictionary. 
+Mainly two types of dictionary which: 1) stores nodes that are followed by a node 2) stores nodes that follows a node
 
 # Model: 
-XG boost. Powerful for classification problems. directly output the probability of being a positive label using an objective set to ‘binary:logistic’.
+- XG boost: Powerful for classification problems. directly output the probability of being a positive label using an objective set to ‘binary:logistic’.
 
 # Sampling data: 
-50k pos/50k neg random sampling
+- 50k pos/50k neg random sampling
 
 # Result:
-Public leaderboard score:  0.85802  (21th)
-Final (Private leaderboard) score:  0.89480 (14th)
+- Final (Private leaderboard) score:  0.89480 (14th)
