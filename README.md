@@ -7,7 +7,7 @@ https://www.kaggle.com/c/comp90051-2020-sem2-proj1/leaderboard
 
 # RUN
 To run quickly, change params to smaller size: 
->>>> get_trainset(500, 500)  // instead of (50000, 50000)
+> get_trainset(500, 500)  // instead of (50000, 50000)
 
 # Features
 Among numerous approaches we took, this is about our final approach.
