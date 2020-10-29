@@ -1,6 +1,10 @@
 # Link_prediction
 Link prediction using proximity-based methods
 
+This project was done in the subject, Statistical Machine learning taken in Semester2, 2020 in the University of Melbourne.
+* Ranked 14th out of 132 teams.
+https://www.kaggle.com/c/comp90051-2020-sem2-proj1/leaderboard
+
 # RUN
 To run quickly, change params to smaller size: 
 >>>> get_trainset(500, 500)  // instead of (50000, 50000)
