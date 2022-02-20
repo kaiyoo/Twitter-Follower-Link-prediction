@@ -5,9 +5,6 @@ This project was done in the subject, COMP90051 (Statistical Machine learning) t
 * Ranked 14th out of 132 teams.
 https://www.kaggle.com/c/comp90051-2020-sem2-proj1/leaderboard
 
-# RUN
-To run quickly, change params to smaller size: 
-> get_trainset(500, 500)  // instead of (50000, 50000)
 
 # Features
 Among numerous approaches we took, this is about our final approach.
@@ -33,5 +30,9 @@ Mainly two types of dictionary which: 1) stores nodes that are followed by a nod
 # Sampling data: 
 - 50k pos/50k neg random sampling
 
+# RUN
+To run quickly, change params of def get_trained() to smaller size: 
+> ex) get_trainset(500, 500)  // instead of (50000, 50000)
+
 # Result:
-- Final (Private leaderboard) score:  0.89480 (14th)
+- Final (Private leaderboard) score:  0.89480 
