@@ -19,6 +19,10 @@ For features, we implemented methods for getting features below.
 5) Resource allocation
 6) Other features: followers/followees of source/sink each and their common followers/followees
 
+[feature importance]
+![feature importance](./feature_importance.PNG)
+
+
 # Implementation: 
 We referred to some implemented codes in the github but mostly it was easy to implement according to the formula just by using python dictionary. 
 Mainly two types of dictionary which: 1) stores nodes that are followed by a node 2) stores nodes that follows a node
